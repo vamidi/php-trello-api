@@ -1,6 +1,6 @@
 <?php
 
-namespace Valenciohoffman\Service\Trello;
+namespace Trello\Service\Trello;
 
 require_once 'configuration.class.php';
 
@@ -10,7 +10,7 @@ require_once 'configuration.class.php';
  * @Date: 03-05-17
  * @license: Apache 2.0
  *
- * @version: 1.0.0
+ * @version: 1.0.1
  *
  * Trello class
  * This class is created to make an connection through the authorize
@@ -72,7 +72,7 @@ class Client {
 
 	public function __construct($options) {
 		// if args is not an array or the array is empty dont do anything
-		 static::$defaultOptions = Configuration::setMany($options, static::$defaultOptions);
+        static::$defaultOptions = Configuration::setMany($options, static::$defaultOptions);
 	}
 
 	// Authorize the user

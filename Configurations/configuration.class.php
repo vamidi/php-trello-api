@@ -1,5 +1,5 @@
 <?php
-namespace Valenciohoffman\Service\Trello;
+namespace Configurations;
 
 /**
  * @Created in PhpStorm 2017.1.
@@ -7,7 +7,7 @@ namespace Valenciohoffman\Service\Trello;
  * @Date: 03-05-17
  * @license: Apache 2.0
  *
- * @version: 1.0.0
+ * @version: 1.0.1
  *
  * Configuration class
  * This class is created to make an array where default options
